@@ -1,0 +1,147 @@
+.para {
+    font-family: 'merriweather';
+    font-size: 20px;
+    color: black;
+    padding: 25px;
+    width: 60%;
+    margin: 0px;
+}
+
+#first-para {
+    float: left;
+}
+
+header{
+    background-color: rgb(255, 166, 0);
+    padding: 2%;
+    text-align: center;
+    margin-top: 65px;
+}
+#heading-1 {
+    width: fit-content;
+    color: whitesmoke;
+    margin:0px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'courgette';
+    font-size: 60px;
+    border-bottom: 5px dashed blue;    
+} 
+body {
+    margin: 0;
+}
+
+video {
+    float: right;
+    border: 5px dashed rgb(17, 0, 255);
+    margin-right: 20px;
+}
+
+#para-1{
+    background-color: rgba(243, 202, 202, 0.479);
+    padding: 10px 0px;
+    display: inline-block;
+    margin: 0px;
+}
+
+hr {
+    height: 2px;
+    width: 90%;
+    border-radius: 60%;
+    background-color: rgb(255, 72, 0);
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+#nav-ul {
+    background-color: red;
+    margin: 0px;
+    padding: 0px;
+    margin: 0px;
+    padding: 10px;
+}
+.nav-li {
+    /* float: right; */
+    display: inline-block;
+    margin: 10px 30px;  
+    border-bottom: 3px dashed blue;
+    font-family: 'courgette';
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#second-para {
+    float: right;
+    margin: 0px;
+}
+.headings-small {
+    background-color: rgb(233, 155, 155);
+    text-align: left;
+    margin: 0px;
+    padding: 10px 100px;
+    font-family:'courgette';
+    color: rgb(250, 3, 3);
+    text-decoration: underline blue dashed;
+    font-size: 45px;
+}
+
+#right-heading {
+    text-align: right;
+    padding-right: 30px;
+}
+
+.points-ul {
+    width: 55%;
+    list-style-type: symbols('&part;');
+    opacity: 80%;
+}
+
+#video-animation-2 {
+    float: left;
+    margin-left: 30px;
+}
+#headings-tiny {
+    text-align: left;
+    margin: 0px;
+    padding: 5px 100px;
+    font-family:'courgette';
+    color: rgb(250, 3, 3);
+    text-decoration: underline blue dashed;
+    font-size: 25px;
+}
+.statistic-image-1{
+    background-color: rgba(243, 202, 202, 0.479);
+    overflow: hidden;
+}
+
+img {
+    border: 5px dashed blue;
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 40%;
+}
+#para-1-1 {
+    font-family: 'merriweather';
+    font-size: 20px;
+    color: black;
+    padding: 25px;
+    width: 45%;
+    margin: 0px;
+    float: right;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+.wrapper > div {
+    flex: 1 1 150px;
+}
