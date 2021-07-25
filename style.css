@@ -116,6 +116,9 @@ a {
     color: rgb(250, 3, 3);
     text-decoration: underline blue dashed;
     font-size: 25px;
+    content: "";
+    clear: both;
+    display: table;
 }
 .statistic-image-1{
     background-color: rgba(243, 202, 202, 0.479);
@@ -144,4 +147,18 @@ img {
 }
 .wrapper > div {
     flex: 1 1 150px;
+}
+
+.question {
+    font-family: 'merriweather';
+
+}
+
+.answer {
+    font-family: 'merriweather';
+}
+
+.spaced {
+    padding: 50px 100px;
+    background-color: rgba(243, 202, 202, 0.479);
 }
