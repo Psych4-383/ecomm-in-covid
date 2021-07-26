@@ -7,6 +7,10 @@
     margin: 0px;
 }
 
+.para:hover{
+    color: red;
+}
+
 #first-para {
     float: left;
 }
@@ -53,11 +57,13 @@ hr {
 
 nav {
     position: fixed;
+    z-index: 3;
     width: 100%;
     top: 0;
 }
 
 #nav-ul {
+    width: 100%;
     background-color: red;
     margin: 0px;
     padding: 0px;
@@ -107,7 +113,35 @@ a {
 #video-animation-2 {
     float: left;
     margin-left: 30px;
+    animation-name: FromLeft;
+    position: relative;
+    animation-duration: 3s;
 }
+
+#video-animation {
+    animation-name: FromRight;
+    position: absolute;
+    animation-duration: 3s;
+}
+
+@keyframes FromLeft {
+    from {
+        left: -2000px;
+    }
+    to {
+        left: 0px;
+    }
+}
+
+@keyframes FromRight {
+    from {
+        right: -1000px;
+    }
+    to {
+        right: 20px;
+    }
+}
+
 #headings-tiny {
     text-align: left;
     margin: 0px;
@@ -164,4 +198,47 @@ img {
 }
 #feedback {
     background-color: rgba(243, 202, 202, 0.479);
+}
+
+img:hover{
+    box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.699);
+}
+video:hover{
+    box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.699);
+}
+p:hover{
+    color: red;
+}
+#para-1-1:hover{
+    color:red;
+}
+.headings-small:hover{
+    font-weight: bold;
+    font-size: 50px;
+    transition-duration: 1s;
+}
+#headings-tiny:hover{
+    font-weight: bolder;
+    font-size: 30px;
+    transition-duration: 1s;
+}
+#heading-1:hover{
+    font-weight: bolder;
+    font-size: 75px;
+    transition-duration: 1s;
+}
+.nav-li:hover{
+    font-weight:bold;
+    font-size: 25px;
+    transition-duration: 1s;
+}
+.headings-small:hover {
+    font-weight: bold;
+    font-size: 50px;
+    transition-duration: 1s;
+}
+#headings-tiny:hover{
+    font-weight: bolder;
+    font-size: 30px;
+    transition-duration: 1s;
 }
