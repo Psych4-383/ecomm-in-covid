@@ -7,105 +7,171 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Comfortaa:wght@300&display=swap"
+        rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="resources/earth.png">
     <title>E-Commerce in the Pandemic</title>
 </head>
 
 <body>
-    <nav>
-        <ul id="nav-ul">
-            <li class="nav-li"><a href="/index.html">Home</a></li>
-            <li class="nav-li"><a href="/B-pandemic.html">Before Pandemic</a></li>
-            <li class="nav-li"><a href="/A-pandemic.html">After Pandemic</a></li>
-            <li class="nav-li"><a href="/FAQ.html">FAQ's</a></li>
-            <li class="nav-li"><a href="/Feedback.html">Feedback</a></li>
-        </ul>
-    </nav>
-    <header>
-        <div class="container" id="mainBody">
+    <div id="loader">
+        <div id="inload"></div>
+    </div>
+    <div id="outload">
+        <div id="outloader_1">
+            <div id="outloader_1in">
+                <div id="home-right">
+                    <div id="responsible">Ecommerce in <Br> Pandemic</div>
+                    <div id="sub">Ecommerce is the future, be prepared!!!</div>
+                </div>
+            </div>
+        </div>
+        <!-- <div id="intro"> -->
+        <!-- <figure class="effect">
+            <img src="resources/start-ecomerce-store-og.png" alt="Background">
+                <figcaption>
+                    <h2>OVERVIEW</h2>
+                    <p>>The COVID-19 crisis accelerated an expansion of
+                        e-commerce towards new firms, customers and types of products.
+                        It has provided customers with access to a significant variety of products from the convenience and
+                        safety
+                        of their homes, and has enabled firms to continue operation in spite of contact restrictions and other
+                        confinement measures.
+                        <br><br>
+                        Despite persistent cross-country differences, the COVID-19 crisis has
+                        enhanced dynamism in the e-commerce landscape across countries and has expanded
+                        the scope of e-commerce, including through new firms, consumer segments (e.g. elderly) and products
+                        (e.g. groceries). Meanwhile, e-commerce transactions in many countries have partly shifted from luxury
+                        goods
+                        and
+                        services towards everyday necessities, relevant to a large number of individuals.
+                    </p></p>
+                </figcaption>			
+        </figure> -->
+        <nav>
+            <input type="checkbox" id="toggleCheckbox">
+            <label for="toggleCheckbox" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-ul"
+                aria-expanded="false" aria-controls="navbar" style="width: 15%;">
+                <img src="/resources/three-line-menu-icon-1.jpg"
+                    style="width: 20px; border: none; box-shadow: none; padding: 10px 10%; margin: 0px; background-color: red;">
+            </label>
+            <ul id="nav-ul" class="collapse">
+                <li class="nav-li"><a href="/index.html">Home</a></li>
+                <li class="nav-li"><a href="/B-pandemic.html">Before Pandemic</a></li>
+                <li class="nav-li"><a href="/A-pandemic.html">After Pandemic</a></li>
+                <li class="nav-li"><a href="/FAQ.html">FAQ's</a></li>
+                <li class="nav-li"><a href="/Feedback.html">Feedback</a></li>
+            </ul>
+        </nav>
+        <hr>
+        <div class="container">
+            <h2 class="headings-small">Abstract</h2>
+            <div id="para-1">
+                <p class="para" id="first-para">The COVID-19 crisis accelerated an expansion of
+                    e-commerce towards new firms, customers and types of products.
+                    It has provided customers with access to a significant variety of products from the convenience and
+                    safety
+                    of their homes, and has enabled firms to continue operation in spite of contact restrictions and
+                    other
+                    confinement measures.
+                    <br><br>
+                    Despite persistent cross-country differences, the COVID-19 crisis has
+                    enhanced dynamism in the e-commerce landscape across countries and has expanded
+                    the scope of e-commerce, including through new firms, consumer segments (e.g. elderly) and products
+                    (e.g. groceries). Meanwhile, e-commerce transactions in many countries have partly shifted from
+                    luxury
+                    goods
+                    and
+                    services towards everyday necessities, relevant to a large number of individuals.
+                </p>
+                <video autoplay loop width="30%" id="video-animation" muted>
+                    <source src="resources/Media1.mp4" type="video/mp4">
+                </video>
+                <p class="para" id="second-para">
+                    Despite the efforts of some governments
+                    to foster e-commerce during the COVID-19 crisis,
+                    persistent digital divides imply that not everyone
+                    has been able to participate. Moreover, regulations
+                    that are not adapted to e-commerce can create barriers
+                    to firms, such as in the case of emerging omni-channel sales
+                    models or new modes of delivery. While many of these challenges
+                    existed before COVID-19, the current crisis and the new role of
+                    e-commerce for individuals and firms has
+                    heightened the need for policy action. <br><br>
+                <ul class="para points-ul" id="second-para">
+                    <li>
+                        For consumers, systemic challenges related to connectivity, financial inclusion, skills and
+                        trust
+                        (e.g.
+                        digital security, privacy and consumer protection) have been brought into sharp relief. To
+                        address
+                        this
+                        issue, governments could expand affordable and quality broadband to rural and underserved areas,
+                        enhance
+                        financial inclusion, and foster trust and the acquisition of skills to participate in
+                        e-commerce.
+                        <br>
+                        <br>
+                    </li>
+                    <li>
+                        For firms, policy makers should reduce regulatory uncertainty to support the creation of
+                        innovative
+                        business
+                        models, e.g. in the context of an increasingly complementary relationship between offline and
+                        online
+                        sales
+                        strategies. <br> <br>
+                    </li>
+                    <li>
+                        Governments also need to address the particular need of SMEs, including by ensuring a fair
+                        playing
+                        field
+                        in
+                        the context of intermediated services (e.g. online platforms). Ensuring sufficient competition
+                        in
+                        the
+                        retail
+                        sector and a well-functioning enabling environment for e-commerce, including communication
+                        services,
+                        logistics or trade, is also crucial.
+                    </li>
+
+                </ul>
+                </p>
+                <video autoplay loop width="36%" id="video-animation-2" muted>
+                    <source src="resources/animation2.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        <hr>
+        <div id="footer">
+            <div id="footer-left">
+                <div id="logo"></div>
+                <p>Opus Web-development <br> &copy; Parth Katoch and Pakhi Bisht<br>AIS-46, Gurugram</p>
+            </div>
             <center>
-                <h2 id="heading-1">E-commerce in Pandemic</h2>
+                <div id="social">
+                    <a href="https://www.facebook.com"><img src="resources/fb-icon.png" height="65px" width="65px"
+                            style="border-radius:50%;" class="scale">&nbsp;</a>
+                    <a href="https://www.twitter.com"><img src="resources/twitter.png" height="65px" width="65px"
+                            style="border-radius:50%;" class="scale">&nbsp;</a>
+                    <a href="https://www.instagram.com"><img src="resources/insta.png" height="65px" width="65px"
+                            style="border-radius:50%;" class="scale">&nbsp;</a>
+                    <a href="https://plus.google.com"><img src="resources/gplus.png" height="65px" width="65px"
+                            style="border-radius:50%;" class="scale">&nbsp;</a>
+                </div>
             </center>
         </div>
-    </header>
-    <hr>
-    <div class="container">
-        <h2 class="headings-small">Abstract</h2>
-        <div id="para-1">
-            <p class="para" id="first-para">The COVID-19 crisis accelerated an expansion of
-                e-commerce towards new firms, customers and types of products.
-                It has provided customers with access to a significant variety of products from the convenience and
-                safety
-                of their homes, and has enabled firms to continue operation in spite of contact restrictions and other
-                confinement measures.
-                <br><br>
-                Despite persistent cross-country differences, the COVID-19 crisis has
-                enhanced dynamism in the e-commerce landscape across countries and has expanded
-                the scope of e-commerce, including through new firms, consumer segments (e.g. elderly) and products
-                (e.g. groceries). Meanwhile, e-commerce transactions in many countries have partly shifted from luxury
-                goods
-                and
-                services towards everyday necessities, relevant to a large number of individuals.
-            </p>
-            <video autoplay loop width="30%" id="video-animation" muted>
-                <source src="resources/Media1.mp4" type="video/mp4">
-            </video>
-            <p class="para" id="second-para">
-                Despite the efforts of some governments
-                to foster e-commerce during the COVID-19 crisis,
-                persistent digital divides imply that not everyone
-                has been able to participate. Moreover, regulations
-                that are not adapted to e-commerce can create barriers
-                to firms, such as in the case of emerging omni-channel sales
-                models or new modes of delivery. While many of these challenges
-                existed before COVID-19, the current crisis and the new role of
-                e-commerce for individuals and firms has
-                heightened the need for policy action. <br><br>
-            <ul class="para points-ul" id="second-para">
-                <li>
-                    For consumers, systemic challenges related to connectivity, financial inclusion, skills and trust
-                    (e.g.
-                    digital security, privacy and consumer protection) have been brought into sharp relief. To address
-                    this
-                    issue, governments could expand affordable and quality broadband to rural and underserved areas,
-                    enhance
-                    financial inclusion, and foster trust and the acquisition of skills to participate in e-commerce.
-                    <br>
-                    <br>
-                </li>
-                <li>
-                    For firms, policy makers should reduce regulatory uncertainty to support the creation of innovative
-                    business
-                    models, e.g. in the context of an increasingly complementary relationship between offline and online
-                    sales
-                    strategies. <br> <br>
-                </li>
-                <li>
-                    Governments also need to address the particular need of SMEs, including by ensuring a fair playing
-                    field
-                    in
-                    the context of intermediated services (e.g. online platforms). Ensuring sufficient competition in
-                    the
-                    retail
-                    sector and a well-functioning enabling environment for e-commerce, including communication services,
-                    logistics or trade, is also crucial.
-                </li>
-
-            </ul>
-            </p>
-            <video autoplay loop width="36%" id="video-animation-2" muted>
-                <source src="resources/animation2.mp4" type="video/mp4">
-            </video>
-        </div>
     </div>
-    <hr>
-
-    <footer>
-
-    </footer>
 </body>
 
 </html>
