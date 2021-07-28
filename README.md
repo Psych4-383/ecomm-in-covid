@@ -1,4 +1,5 @@
 # E-Commerce in the Pandemic
+
 ## README
 
 The website consists of five webpages in the following order:-
@@ -26,14 +27,15 @@ NOTE: Please open the website on Google Chrome (This is because there are scroll
 - The final page of the website aims towards interactive communicaton with the user with the underline effect on input fields through  google forms.
 - If by chance the file is not opening due to some reasons we have created a link of the website on Github and Netlify.
 
-## Links:
+## Links
 
 1. [Netlify Link](https://ecommerce-in-pandemic.netlify.app/)
 
-2. [Github Link](https://github.com/Psych4-383/ecomm-in-covid)
+2. [Github Link](https://github.com/Psych4-383/ecomm-in-covid/)
 
-## Submission:
-Website made by:
+## Submission
+
+Website made by: \
 Parth Katoch (8th I) \
 Pakhi Bisht (8th D) \
 Amity International School, sector-46, Gurugram
