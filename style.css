@@ -935,7 +935,7 @@ div{
   #home{
 	height: 100vh;
 	width: 100vw;
-	background-image: url(../resources/ecomm-in-pandemic.jpg);
+	background-image: url(../resources/7-Ecommerce-Technology-Trends-that-Empower-Businesses-Updated.webp);
 	background-size: cover;
 	overflow: hidden;
 	position: relative;
@@ -953,13 +953,13 @@ div{
 	font-weight: 900;
 	text-align: center;
 	text-shadow: 3px 4px black;
-	animation: shake 2s ease-in-out;
+	animation: shake-1 2s ease-in-out;
 	animation-iteration-count: 1;
 	animation-fill-mode: forwards;
 	opacity: 1;
 	overflow: hidden;
 }
-@keyframes shake{
+@keyframes shake-1{
   0%{transform: rotate(0deg);}
   12%{transform: rotate(-10deg);}
   24%{transform: rotate(10deg);}
