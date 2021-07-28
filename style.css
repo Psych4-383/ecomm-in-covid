@@ -97,6 +97,11 @@ nav {
     width: 50px;
 }
 
+.nav-item:hover{
+    animation-name: shake;
+    animation-duration: 1s;
+}
+
 a {
     text-decoration: none;
     color: white;
